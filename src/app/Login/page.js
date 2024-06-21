@@ -6,8 +6,8 @@ import React, { useContext, useState } from 'react'
 import { toast } from 'react-toastify';
 
 const Login = () => {
-    const [email, setEmail] = useState();
-    const [password, setPassword] = useState();
+    const [email, setEmail] = useState("");
+    const [password, setPassword] = useState("");
     const [fieldValidation, setFieldValidation] = useState(false);
     const { Login } = AdminService();
     const { token, setToken } = useContext(GlobalContext);

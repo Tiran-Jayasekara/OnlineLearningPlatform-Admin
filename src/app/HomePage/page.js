@@ -8,7 +8,7 @@ const Home = () => {
       backgroundImage: "url('')",
     }}>
       <PageHeader
-        topic="Home"
+        topic="Admin Panel"
         header="Well Come To  Online Learning Platform."
         description="Learn Anything You Need"
       />
